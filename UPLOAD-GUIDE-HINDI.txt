@@ -1,0 +1,16 @@
+AI Study Master - Project package
+
+Is ZIP ko extract karne par AIStudyMaster folder milega. Is folder ke andar sabhi project files sahi folder structure mein hain:
+- app/                  Android app source, manifest, resources, Gradle config
+- backend/              AI/PDF backend starter code
+- .github/workflows/    GitHub Actions Android build workflow
+- build.gradle
+- settings.gradle
+- gradle.properties
+- README.md
+
+IMPORTANT:
+1. GitHub par ZIP file ko akela upload karne se APK build nahi hoga.
+2. GitHub repository ke root mein AIStudyMaster folder ke ANDAR ki contents upload/commit honi chahiye, including hidden .github folder.
+3. Folder structure ko flatten na karein; app/src/... aur .github/workflows/... ka path jaisa hai waisa rehna chahiye.
+4. Ye source project hai, ready APK nahi. Build run karke successful result aur APK artifact verify karna hoga.
